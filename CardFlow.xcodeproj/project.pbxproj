@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E8CE72B23C4A439001167E1 /* cardflow.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5E8CE72A23C4A439001167E1 /* cardflow.mov */; };
+		5E8CE72D23C4A819001167E1 /* cardflow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5E8CE72C23C4A819001167E1 /* cardflow.gif */; };
 		5E94303A23C35EE100F75717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94303923C35EE100F75717 /* AppDelegate.swift */; };
 		5E94303E23C35EE200F75717 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94303D23C35EE200F75717 /* ViewController.swift */; };
 		5E94304123C35EE200F75717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E94303F23C35EE200F75717 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		5E8CE72A23C4A439001167E1 /* cardflow.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = cardflow.mov; sourceTree = "<group>"; };
+		5E8CE72C23C4A819001167E1 /* cardflow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cardflow.gif; sourceTree = "<group>"; };
 		5E94303623C35EE100F75717 /* CardFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E94303923C35EE100F75717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E94303D23C35EE200F75717 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		5E8CE72923C4A421001167E1 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				5E8CE72C23C4A819001167E1 /* cardflow.gif */,
 				5E8CE72A23C4A439001167E1 /* cardflow.mov */,
 				5E94307223C3699D00F75717 /* appstore.png */,
 			);
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E94307323C3699D00F75717 /* appstore.png in Resources */,
+				5E8CE72D23C4A819001167E1 /* cardflow.gif in Resources */,
 				5E94304623C35EE500F75717 /* LaunchScreen.storyboard in Resources */,
 				5E8CE72B23C4A439001167E1 /* cardflow.mov in Resources */,
 				5E94304323C35EE500F75717 /* Assets.xcassets in Resources */,
