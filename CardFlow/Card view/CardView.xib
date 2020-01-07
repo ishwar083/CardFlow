@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CarterOne.ttf">
+            <string>CarterOne</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardView" customModule="CardFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="425"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ab9-2g-xmM">
+                    <rect key="frame" x="0.0" y="0.0" width="335" height="425"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27q-YZ-lgF" customClass="GenericLabel" customModule="CardFlow" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="388" width="335" height="20"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="0.31885453345070425" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="CarterOne" family="Carter One" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sad_large" translatesAutoresizingMaskIntoConstraints="NO" id="z1l-Ge-aAU">
+                    <rect key="frame" x="61.5" y="106.5" width="212" height="212"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="z1l-Ge-aAU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="13h-qh-Jc2"/>
+                <constraint firstAttribute="bottom" secondItem="Ab9-2g-xmM" secondAttribute="bottom" id="8GO-5x-33r"/>
+                <constraint firstItem="27q-YZ-lgF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hPv-eL-Ogi"/>
+                <constraint firstAttribute="bottom" secondItem="27q-YZ-lgF" secondAttribute="bottom" constant="17" id="mhi-QC-5m8"/>
+                <constraint firstAttribute="trailing" secondItem="Ab9-2g-xmM" secondAttribute="trailing" id="oZB-Me-wrk"/>
+                <constraint firstItem="Ab9-2g-xmM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pLQ-hP-OH0"/>
+                <constraint firstItem="Ab9-2g-xmM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pU7-yh-KnT"/>
+                <constraint firstAttribute="trailing" secondItem="27q-YZ-lgF" secondAttribute="trailing" id="vOQ-OD-MLJ"/>
+                <constraint firstItem="z1l-Ge-aAU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xk5-Ma-O9Z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgVEmoji" destination="z1l-Ge-aAU" id="OeG-mY-JDJ"/>
+                <outlet property="imgVProfile" destination="Ab9-2g-xmM" id="BnM-FF-WeE"/>
+                <outlet property="lblInfo" destination="27q-YZ-lgF" id="o4P-AX-V4l"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="335" height="425"/>
+        <image name="sad_large" width="106" height="106"/>
+    </resources>
+</document>

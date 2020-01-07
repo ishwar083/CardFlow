@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5E94303A23C35EE100F75717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94303923C35EE100F75717 /* AppDelegate.swift */; };
-		5E94303C23C35EE200F75717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94303B23C35EE200F75717 /* SceneDelegate.swift */; };
 		5E94303E23C35EE200F75717 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94303D23C35EE200F75717 /* ViewController.swift */; };
 		5E94304123C35EE200F75717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E94303F23C35EE200F75717 /* Main.storyboard */; };
 		5E94304323C35EE500F75717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E94304223C35EE500F75717 /* Assets.xcassets */; };
 		5E94304623C35EE500F75717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E94304423C35EE500F75717 /* LaunchScreen.storyboard */; };
 		5E94305123C35EE600F75717 /* CardFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94305023C35EE600F75717 /* CardFlowTests.swift */; };
 		5E94305C23C35EE600F75717 /* CardFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94305B23C35EE600F75717 /* CardFlowUITests.swift */; };
+		5E94306C23C35FB100F75717 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94306A23C35FB100F75717 /* CardView.swift */; };
+		5E94306D23C35FB100F75717 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E94306B23C35FB100F75717 /* CardView.xib */; };
+		5E94306F23C35FF300F75717 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94306E23C35FF300F75717 /* Constant.swift */; };
+		5E94307123C3605D00F75717 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94307023C3605D00F75717 /* ExtensionView.swift */; };
+		5E94307323C3699D00F75717 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E94307223C3699D00F75717 /* appstore.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		5E94303623C35EE100F75717 /* CardFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E94303923C35EE100F75717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E94303B23C35EE200F75717 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5E94303D23C35EE200F75717 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E94304023C35EE200F75717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E94304223C35EE500F75717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		5E94305723C35EE600F75717 /* CardFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E94305B23C35EE600F75717 /* CardFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlowUITests.swift; sourceTree = "<group>"; };
 		5E94305D23C35EE600F75717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E94306A23C35FB100F75717 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5E94306B23C35FB100F75717 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		5E94306E23C35FF300F75717 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5E94307023C3605D00F75717 /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		5E94307223C3699D00F75717 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				5E94303923C35EE100F75717 /* AppDelegate.swift */,
-				5E94303B23C35EE200F75717 /* SceneDelegate.swift */,
 				5E94303D23C35EE200F75717 /* ViewController.swift */,
+				5E94306923C35FB100F75717 /* Card view */,
 				5E94303F23C35EE200F75717 /* Main.storyboard */,
 				5E94304223C35EE500F75717 /* Assets.xcassets */,
 				5E94304423C35EE500F75717 /* LaunchScreen.storyboard */,
 				5E94304723C35EE500F75717 /* Info.plist */,
+				5E94307223C3699D00F75717 /* appstore.png */,
 			);
 			path = CardFlow;
 			sourceTree = "<group>";
@@ -126,6 +135,17 @@
 				5E94305D23C35EE600F75717 /* Info.plist */,
 			);
 			path = CardFlowUITests;
+			sourceTree = "<group>";
+		};
+		5E94306923C35FB100F75717 /* Card view */ = {
+			isa = PBXGroup;
+			children = (
+				5E94306E23C35FF300F75717 /* Constant.swift */,
+				5E94307023C3605D00F75717 /* ExtensionView.swift */,
+				5E94306A23C35FB100F75717 /* CardView.swift */,
+				5E94306B23C35FB100F75717 /* CardView.xib */,
+			);
+			path = "Card view";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +252,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E94307323C3699D00F75717 /* appstore.png in Resources */,
 				5E94304623C35EE500F75717 /* LaunchScreen.storyboard in Resources */,
 				5E94304323C35EE500F75717 /* Assets.xcassets in Resources */,
+				5E94306D23C35FB100F75717 /* CardView.xib in Resources */,
 				5E94304123C35EE200F75717 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E94303E23C35EE200F75717 /* ViewController.swift in Sources */,
+				5E94307123C3605D00F75717 /* ExtensionView.swift in Sources */,
+				5E94306C23C35FB100F75717 /* CardView.swift in Sources */,
 				5E94303A23C35EE100F75717 /* AppDelegate.swift in Sources */,
-				5E94303C23C35EE200F75717 /* SceneDelegate.swift in Sources */,
+				5E94306F23C35FF300F75717 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CardFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CardFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
